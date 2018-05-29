@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96493BC120BB9DD300867F46 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96493BBF20BB9DD200867F46 /* NewsViewController.m */; };
+		96493BC220BB9DD300867F46 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96493BC020BB9DD200867F46 /* NewsViewController.xib */; };
+		96493BC620BBABDC00867F46 /* NewsHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96493BC420BBABDC00867F46 /* NewsHtmlViewController.m */; };
+		96493BC720BBABDC00867F46 /* NewsHtmlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96493BC520BBABDC00867F46 /* NewsHtmlViewController.xib */; };
+		96493BCB20BBABF600867F46 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96493BC920BBABF600867F46 /* NewsTableViewCell.m */; };
+		96493BCC20BBABF600867F46 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96493BCA20BBABF600867F46 /* NewsTableViewCell.xib */; };
+		96493BCF20BBAD4F00867F46 /* GetNewsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96493BCE20BBAD4F00867F46 /* GetNewsListModel.m */; };
 		9694080E20A536A60034AD3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694080D20A536A60034AD3F /* AppDelegate.m */; };
 		9694081120A536A60034AD3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694081020A536A60034AD3F /* ViewController.m */; };
 		9694081420A536A60034AD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9694081220A536A60034AD3F /* Main.storyboard */; };
@@ -15,6 +22,53 @@
 		9694081C20A536A80034AD3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694081B20A536A80034AD3F /* main.m */; };
 		9694082620A536A80034AD3F /* TicketObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694082520A536A80034AD3F /* TicketObjectTests.m */; };
 		9694083120A536A80034AD3F /* TicketObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694083020A536A80034AD3F /* TicketObjectUITests.m */; };
+		9694DEDA20BCE6E30024EFA3 /* WCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9694DED920BCE6E30024EFA3 /* WCAlertView.m */; };
+		96A03DE420AC09AE00323715 /* ADScrollViewComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A03DE320AC09AE00323715 /* ADScrollViewComponent.m */; };
+		96FB3FE220B6F12600A09C2A /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB3FE120B6F12600A09C2A /* URL.m */; };
+		96FB3FE820B6F2AE00A09C2A /* HttpNewWroking.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB3FE720B6F2AE00A09C2A /* HttpNewWroking.m */; };
+		96FB403820B7983D00A09C2A /* MBProgressHUD+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB403620B7983D00A09C2A /* MBProgressHUD+GS.m */; };
+		96FB405D20B7A5DD00A09C2A /* ShowTicketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB404120B7A5DD00A09C2A /* ShowTicketCollectionViewCell.xib */; };
+		96FB405E20B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB404220B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.xib */; };
+		96FB405F20B7A5DD00A09C2A /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404320B7A5DD00A09C2A /* HistoryTableViewCell.m */; };
+		96FB406020B7A5DD00A09C2A /* ShowTicketCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404420B7A5DD00A09C2A /* ShowTicketCollectionViewCell.m */; };
+		96FB406120B7A5DD00A09C2A /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB404520B7A5DD00A09C2A /* HistoryTableViewCell.xib */; };
+		96FB406220B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404620B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.m */; };
+		96FB406320B7A5DD00A09C2A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404920B7A5DD00A09C2A /* HomeViewController.m */; };
+		96FB406420B7A5DD00A09C2A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404A20B7A5DD00A09C2A /* HistoryViewController.m */; };
+		96FB406520B7A5DD00A09C2A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB404B20B7A5DD00A09C2A /* BaseViewController.m */; };
+		96FB406620B7A5DD00A09C2A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB404C20B7A5DD00A09C2A /* HomeViewController.xib */; };
+		96FB406720B7A5DD00A09C2A /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB404F20B7A5DD00A09C2A /* BaseViewController.xib */; };
+		96FB406820B7A5DD00A09C2A /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB405020B7A5DD00A09C2A /* HistoryViewController.xib */; };
+		96FB406920B7A5DD00A09C2A /* TicketHistoryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB405320B7A5DD00A09C2A /* TicketHistoryDetailsViewController.xib */; };
+		96FB406A20B7A5DD00A09C2A /* TicketHistoryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB405420B7A5DD00A09C2A /* TicketHistoryDetailsViewController.m */; };
+		96FB406B20B7A5DD00A09C2A /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB405520B7A5DD00A09C2A /* SettingViewController.xib */; };
+		96FB406C20B7A5DD00A09C2A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB405720B7A5DD00A09C2A /* SettingViewController.m */; };
+		96FB406D20B7A5DD00A09C2A /* HistoryListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB405B20B7A5DD00A09C2A /* HistoryListModel.m */; };
+		96FB406E20B7A5DD00A09C2A /* GetTicketListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB405C20B7A5DD00A09C2A /* GetTicketListModel.m */; };
+		96FB407220B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB407020B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.m */; };
+		96FB407320B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB407120B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.xib */; };
+		96FB407620B7A6A800A09C2A /* TicketHistoryDetaileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB407520B7A6A800A09C2A /* TicketHistoryDetaileModel.m */; };
+		96FB407920B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB407820B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.m */; };
+		96FB407B20B7AD6000A09C2A /* TicketHistoryDetailsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB407A20B7AD6000A09C2A /* TicketHistoryDetailsHeaderView.xib */; };
+		96FB407F20B7BCE200A09C2A /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB407D20B7BCE200A09C2A /* SettingTableViewCell.m */; };
+		96FB408020B7BCE200A09C2A /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB407E20B7BCE200A09C2A /* SettingTableViewCell.xib */; };
+		96FB408320B7BE8000A09C2A /* SettingLoginAfterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB408220B7BE8000A09C2A /* SettingLoginAfterView.m */; };
+		96FB408520B7BE8E00A09C2A /* SettingLoginAfterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB408420B7BE8E00A09C2A /* SettingLoginAfterView.xib */; };
+		96FB408920B7DF3700A09C2A /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB408720B7DF3700A09C2A /* UserInfoViewController.m */; };
+		96FB408A20B7DF3700A09C2A /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB408820B7DF3700A09C2A /* UserInfoViewController.xib */; };
+		96FB408E20B7E6EB00A09C2A /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB408C20B7E6EB00A09C2A /* BuyViewController.m */; };
+		96FB408F20B7E6EB00A09C2A /* BuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB408D20B7E6EB00A09C2A /* BuyViewController.xib */; };
+		96FB409320B7E72E00A09C2A /* BuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB409120B7E72E00A09C2A /* BuyTableViewCell.m */; };
+		96FB409420B7E72E00A09C2A /* BuyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB409220B7E72E00A09C2A /* BuyTableViewCell.xib */; };
+		96FB409820B7E99D00A09C2A /* BuyDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB409620B7E99D00A09C2A /* BuyDetailsViewController.m */; };
+		96FB409920B7E99D00A09C2A /* BuyDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB409720B7E99D00A09C2A /* BuyDetailsViewController.xib */; };
+		96FB409D20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB409B20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.m */; };
+		96FB409E20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB409C20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.xib */; };
+		96FB40A220B7EC0200A09C2A /* BuyDetailsCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB40A020B7EC0200A09C2A /* BuyDetailsCollectionReusableView.m */; };
+		96FB40A320B7EC0200A09C2A /* BuyDetailsCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB40A120B7EC0200A09C2A /* BuyDetailsCollectionReusableView.xib */; };
+		96FB40A620B7F20200A09C2A /* BuyEnterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB40A520B7F20200A09C2A /* BuyEnterButtonView.m */; };
+		96FB40A820B7F20B00A09C2A /* BuyEnterButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FB40A720B7F20B00A09C2A /* BuyEnterButtonView.xib */; };
+		E1D5BD9B3F8A4C6A4EF86CB4 /* Pods_TicketObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B259FEED97E4B4A993C25A5 /* Pods_TicketObject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +89,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07810928973BE6AFA54CF960 /* Pods-TicketObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketObject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketObject/Pods-TicketObject.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFAFA37024A651A712CCA8F /* Pods-TicketObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketObject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketObject/Pods-TicketObject.release.xcconfig"; sourceTree = "<group>"; };
+		5B259FEED97E4B4A993C25A5 /* Pods_TicketObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96493BBE20BB9DD200867F46 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		96493BBF20BB9DD200867F46 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		96493BC020BB9DD200867F46 /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		96493BC320BBABDC00867F46 /* NewsHtmlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsHtmlViewController.h; sourceTree = "<group>"; };
+		96493BC420BBABDC00867F46 /* NewsHtmlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsHtmlViewController.m; sourceTree = "<group>"; };
+		96493BC520BBABDC00867F46 /* NewsHtmlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsHtmlViewController.xib; sourceTree = "<group>"; };
+		96493BC820BBABF600867F46 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		96493BC920BBABF600867F46 /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		96493BCA20BBABF600867F46 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		96493BCD20BBAD4F00867F46 /* GetNewsListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNewsListModel.h; sourceTree = "<group>"; };
+		96493BCE20BBAD4F00867F46 /* GetNewsListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNewsListModel.m; sourceTree = "<group>"; };
 		9694080920A536A60034AD3F /* TicketObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9694080C20A536A60034AD3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9694080D20A536A60034AD3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +119,80 @@
 		9694082C20A536A80034AD3F /* TicketObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9694083020A536A80034AD3F /* TicketObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketObjectUITests.m; sourceTree = "<group>"; };
 		9694083220A536A80034AD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9694DED820BCE6E30024EFA3 /* WCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAlertView.h; sourceTree = "<group>"; };
+		9694DED920BCE6E30024EFA3 /* WCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAlertView.m; sourceTree = "<group>"; };
+		96A03DE220AC09AE00323715 /* ADScrollViewComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADScrollViewComponent.h; sourceTree = "<group>"; };
+		96A03DE320AC09AE00323715 /* ADScrollViewComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScrollViewComponent.m; sourceTree = "<group>"; };
+		96A03DE520AC0C0400323715 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		96FB3FE020B6F12600A09C2A /* URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		96FB3FE120B6F12600A09C2A /* URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
+		96FB3FE620B6F2AE00A09C2A /* HttpNewWroking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpNewWroking.h; sourceTree = "<group>"; };
+		96FB3FE720B6F2AE00A09C2A /* HttpNewWroking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpNewWroking.m; sourceTree = "<group>"; };
+		96FB403620B7983D00A09C2A /* MBProgressHUD+GS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GS.m"; sourceTree = "<group>"; };
+		96FB403720B7983D00A09C2A /* MBProgressHUD+GS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GS.h"; sourceTree = "<group>"; };
+		96FB403F20B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionFirstSectionHeaderView.h; sourceTree = "<group>"; };
+		96FB404020B7A5DD00A09C2A /* ShowTicketCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTicketCollectionViewCell.h; sourceTree = "<group>"; };
+		96FB404120B7A5DD00A09C2A /* ShowTicketCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowTicketCollectionViewCell.xib; sourceTree = "<group>"; };
+		96FB404220B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionFirstSectionHeaderView.xib; sourceTree = "<group>"; };
+		96FB404320B7A5DD00A09C2A /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		96FB404420B7A5DD00A09C2A /* ShowTicketCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTicketCollectionViewCell.m; sourceTree = "<group>"; };
+		96FB404520B7A5DD00A09C2A /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		96FB404620B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionFirstSectionHeaderView.m; sourceTree = "<group>"; };
+		96FB404720B7A5DD00A09C2A /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		96FB404920B7A5DD00A09C2A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		96FB404A20B7A5DD00A09C2A /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		96FB404B20B7A5DD00A09C2A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		96FB404C20B7A5DD00A09C2A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		96FB404D20B7A5DD00A09C2A /* TicketHistoryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketHistoryDetailsViewController.h; sourceTree = "<group>"; };
+		96FB404E20B7A5DD00A09C2A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		96FB404F20B7A5DD00A09C2A /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		96FB405020B7A5DD00A09C2A /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		96FB405120B7A5DD00A09C2A /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		96FB405220B7A5DD00A09C2A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		96FB405320B7A5DD00A09C2A /* TicketHistoryDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketHistoryDetailsViewController.xib; sourceTree = "<group>"; };
+		96FB405420B7A5DD00A09C2A /* TicketHistoryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketHistoryDetailsViewController.m; sourceTree = "<group>"; };
+		96FB405520B7A5DD00A09C2A /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		96FB405620B7A5DD00A09C2A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		96FB405720B7A5DD00A09C2A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		96FB405920B7A5DD00A09C2A /* HistoryListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryListModel.h; sourceTree = "<group>"; };
+		96FB405A20B7A5DD00A09C2A /* GetTicketListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTicketListModel.h; sourceTree = "<group>"; };
+		96FB405B20B7A5DD00A09C2A /* HistoryListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryListModel.m; sourceTree = "<group>"; };
+		96FB405C20B7A5DD00A09C2A /* GetTicketListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTicketListModel.m; sourceTree = "<group>"; };
+		96FB406F20B7A68600A09C2A /* TicketHistoryDetailsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketHistoryDetailsTableViewCell.h; sourceTree = "<group>"; };
+		96FB407020B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketHistoryDetailsTableViewCell.m; sourceTree = "<group>"; };
+		96FB407120B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketHistoryDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		96FB407420B7A6A800A09C2A /* TicketHistoryDetaileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketHistoryDetaileModel.h; sourceTree = "<group>"; };
+		96FB407520B7A6A800A09C2A /* TicketHistoryDetaileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketHistoryDetaileModel.m; sourceTree = "<group>"; };
+		96FB407720B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketHistoryDetailsHeaderView.h; sourceTree = "<group>"; };
+		96FB407820B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketHistoryDetailsHeaderView.m; sourceTree = "<group>"; };
+		96FB407A20B7AD6000A09C2A /* TicketHistoryDetailsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketHistoryDetailsHeaderView.xib; sourceTree = "<group>"; };
+		96FB407C20B7BCE200A09C2A /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		96FB407D20B7BCE200A09C2A /* SettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		96FB407E20B7BCE200A09C2A /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		96FB408120B7BE8000A09C2A /* SettingLoginAfterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingLoginAfterView.h; sourceTree = "<group>"; };
+		96FB408220B7BE8000A09C2A /* SettingLoginAfterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingLoginAfterView.m; sourceTree = "<group>"; };
+		96FB408420B7BE8E00A09C2A /* SettingLoginAfterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingLoginAfterView.xib; sourceTree = "<group>"; };
+		96FB408620B7DF3700A09C2A /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		96FB408720B7DF3700A09C2A /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		96FB408820B7DF3700A09C2A /* UserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		96FB408B20B7E6EB00A09C2A /* BuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		96FB408C20B7E6EB00A09C2A /* BuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		96FB408D20B7E6EB00A09C2A /* BuyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyViewController.xib; sourceTree = "<group>"; };
+		96FB409020B7E72E00A09C2A /* BuyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyTableViewCell.h; sourceTree = "<group>"; };
+		96FB409120B7E72E00A09C2A /* BuyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyTableViewCell.m; sourceTree = "<group>"; };
+		96FB409220B7E72E00A09C2A /* BuyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyTableViewCell.xib; sourceTree = "<group>"; };
+		96FB409520B7E99D00A09C2A /* BuyDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyDetailsViewController.h; sourceTree = "<group>"; };
+		96FB409620B7E99D00A09C2A /* BuyDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyDetailsViewController.m; sourceTree = "<group>"; };
+		96FB409720B7E99D00A09C2A /* BuyDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyDetailsViewController.xib; sourceTree = "<group>"; };
+		96FB409A20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyDetailsCollectionViewCell.h; sourceTree = "<group>"; };
+		96FB409B20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyDetailsCollectionViewCell.m; sourceTree = "<group>"; };
+		96FB409C20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		96FB409F20B7EC0200A09C2A /* BuyDetailsCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyDetailsCollectionReusableView.h; sourceTree = "<group>"; };
+		96FB40A020B7EC0200A09C2A /* BuyDetailsCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyDetailsCollectionReusableView.m; sourceTree = "<group>"; };
+		96FB40A120B7EC0200A09C2A /* BuyDetailsCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyDetailsCollectionReusableView.xib; sourceTree = "<group>"; };
+		96FB40A420B7F20200A09C2A /* BuyEnterButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyEnterButtonView.h; sourceTree = "<group>"; };
+		96FB40A520B7F20200A09C2A /* BuyEnterButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyEnterButtonView.m; sourceTree = "<group>"; };
+		96FB40A720B7F20B00A09C2A /* BuyEnterButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyEnterButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D5BD9B3F8A4C6A4EF86CB4 /* Pods_TicketObject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +221,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FAC6CB035F6E78FE04D86FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07810928973BE6AFA54CF960 /* Pods-TicketObject.debug.xcconfig */,
+				1CFAFA37024A651A712CCA8F /* Pods-TicketObject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D7708EC84AC8BCBD6DD318A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B259FEED97E4B4A993C25A5 /* Pods_TicketObject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9694080020A536A60034AD3F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +245,8 @@
 				9694082420A536A80034AD3F /* TicketObjectTests */,
 				9694082F20A536A80034AD3F /* TicketObjectUITests */,
 				9694080A20A536A60034AD3F /* Products */,
+				0FAC6CB035F6E78FE04D86FA /* Pods */,
+				1D7708EC84AC8BCBD6DD318A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +263,13 @@
 		9694080B20A536A60034AD3F /* TicketObject */ = {
 			isa = PBXGroup;
 			children = (
+				96FB3FDC20B6F02500A09C2A /* Tool */,
+				96A03DCE20AC085300323715 /* Class */,
 				9694080C20A536A60034AD3F /* AppDelegate.h */,
 				9694080D20A536A60034AD3F /* AppDelegate.m */,
 				9694080F20A536A60034AD3F /* ViewController.h */,
 				9694081020A536A60034AD3F /* ViewController.m */,
+				96A03DE520AC0C0400323715 /* PrefixHeader.pch */,
 				9694081220A536A60034AD3F /* Main.storyboard */,
 				9694081520A536A80034AD3F /* Assets.xcassets */,
 				9694081720A536A80034AD3F /* LaunchScreen.storyboard */,
@@ -132,6 +297,145 @@
 			path = TicketObjectUITests;
 			sourceTree = "<group>";
 		};
+		96A03DCE20AC085300323715 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				96FB404820B7A5DD00A09C2A /* Controller */,
+				96FB405820B7A5DD00A09C2A /* Model */,
+				96FB403E20B7A5DD00A09C2A /* View */,
+				96A03DE120AC09AE00323715 /* 广告轮播 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		96A03DE120AC09AE00323715 /* 广告轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				96A03DE220AC09AE00323715 /* ADScrollViewComponent.h */,
+				96A03DE320AC09AE00323715 /* ADScrollViewComponent.m */,
+			);
+			path = "广告轮播";
+			sourceTree = "<group>";
+		};
+		96FB3FDC20B6F02500A09C2A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9694DED820BCE6E30024EFA3 /* WCAlertView.h */,
+				9694DED920BCE6E30024EFA3 /* WCAlertView.m */,
+				96FB403520B7983D00A09C2A /* MBProgressHUD */,
+				96FB3FE020B6F12600A09C2A /* URL.h */,
+				96FB3FE120B6F12600A09C2A /* URL.m */,
+				96FB3FE620B6F2AE00A09C2A /* HttpNewWroking.h */,
+				96FB3FE720B6F2AE00A09C2A /* HttpNewWroking.m */,
+			);
+			name = Tool;
+			path = Class/Tool;
+			sourceTree = "<group>";
+		};
+		96FB403520B7983D00A09C2A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				96FB403620B7983D00A09C2A /* MBProgressHUD+GS.m */,
+				96FB403720B7983D00A09C2A /* MBProgressHUD+GS.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		96FB403E20B7A5DD00A09C2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96FB404420B7A5DD00A09C2A /* ShowTicketCollectionViewCell.m */,
+				96FB404020B7A5DD00A09C2A /* ShowTicketCollectionViewCell.h */,
+				96FB404120B7A5DD00A09C2A /* ShowTicketCollectionViewCell.xib */,
+				96FB404620B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.m */,
+				96FB403F20B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.h */,
+				96FB404220B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.xib */,
+				96FB404320B7A5DD00A09C2A /* HistoryTableViewCell.m */,
+				96FB404720B7A5DD00A09C2A /* HistoryTableViewCell.h */,
+				96FB404520B7A5DD00A09C2A /* HistoryTableViewCell.xib */,
+				96FB406F20B7A68600A09C2A /* TicketHistoryDetailsTableViewCell.h */,
+				96FB407020B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.m */,
+				96FB407120B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.xib */,
+				96FB407720B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.h */,
+				96FB407820B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.m */,
+				96FB407A20B7AD6000A09C2A /* TicketHistoryDetailsHeaderView.xib */,
+				96FB407C20B7BCE200A09C2A /* SettingTableViewCell.h */,
+				96FB407D20B7BCE200A09C2A /* SettingTableViewCell.m */,
+				96FB407E20B7BCE200A09C2A /* SettingTableViewCell.xib */,
+				96FB408120B7BE8000A09C2A /* SettingLoginAfterView.h */,
+				96FB408220B7BE8000A09C2A /* SettingLoginAfterView.m */,
+				96FB408420B7BE8E00A09C2A /* SettingLoginAfterView.xib */,
+				96FB409020B7E72E00A09C2A /* BuyTableViewCell.h */,
+				96FB409120B7E72E00A09C2A /* BuyTableViewCell.m */,
+				96FB409220B7E72E00A09C2A /* BuyTableViewCell.xib */,
+				96FB409A20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.h */,
+				96FB409B20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.m */,
+				96FB409C20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.xib */,
+				96FB409F20B7EC0200A09C2A /* BuyDetailsCollectionReusableView.h */,
+				96FB40A020B7EC0200A09C2A /* BuyDetailsCollectionReusableView.m */,
+				96FB40A120B7EC0200A09C2A /* BuyDetailsCollectionReusableView.xib */,
+				96FB40A420B7F20200A09C2A /* BuyEnterButtonView.h */,
+				96FB40A520B7F20200A09C2A /* BuyEnterButtonView.m */,
+				96FB40A720B7F20B00A09C2A /* BuyEnterButtonView.xib */,
+				96493BC820BBABF600867F46 /* NewsTableViewCell.h */,
+				96493BC920BBABF600867F46 /* NewsTableViewCell.m */,
+				96493BCA20BBABF600867F46 /* NewsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96FB404820B7A5DD00A09C2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96FB405620B7A5DD00A09C2A /* BaseViewController.h */,
+				96FB404B20B7A5DD00A09C2A /* BaseViewController.m */,
+				96FB404F20B7A5DD00A09C2A /* BaseViewController.xib */,
+				96FB405120B7A5DD00A09C2A /* HistoryViewController.h */,
+				96FB404A20B7A5DD00A09C2A /* HistoryViewController.m */,
+				96FB405020B7A5DD00A09C2A /* HistoryViewController.xib */,
+				96FB405220B7A5DD00A09C2A /* HomeViewController.h */,
+				96FB404920B7A5DD00A09C2A /* HomeViewController.m */,
+				96FB404C20B7A5DD00A09C2A /* HomeViewController.xib */,
+				96FB404D20B7A5DD00A09C2A /* TicketHistoryDetailsViewController.h */,
+				96FB405420B7A5DD00A09C2A /* TicketHistoryDetailsViewController.m */,
+				96FB405320B7A5DD00A09C2A /* TicketHistoryDetailsViewController.xib */,
+				96FB404E20B7A5DD00A09C2A /* SettingViewController.h */,
+				96FB405720B7A5DD00A09C2A /* SettingViewController.m */,
+				96FB405520B7A5DD00A09C2A /* SettingViewController.xib */,
+				96FB408620B7DF3700A09C2A /* UserInfoViewController.h */,
+				96FB408720B7DF3700A09C2A /* UserInfoViewController.m */,
+				96FB408820B7DF3700A09C2A /* UserInfoViewController.xib */,
+				96FB408B20B7E6EB00A09C2A /* BuyViewController.h */,
+				96FB408C20B7E6EB00A09C2A /* BuyViewController.m */,
+				96FB408D20B7E6EB00A09C2A /* BuyViewController.xib */,
+				96FB409520B7E99D00A09C2A /* BuyDetailsViewController.h */,
+				96FB409620B7E99D00A09C2A /* BuyDetailsViewController.m */,
+				96FB409720B7E99D00A09C2A /* BuyDetailsViewController.xib */,
+				96493BBE20BB9DD200867F46 /* NewsViewController.h */,
+				96493BBF20BB9DD200867F46 /* NewsViewController.m */,
+				96493BC020BB9DD200867F46 /* NewsViewController.xib */,
+				96493BC320BBABDC00867F46 /* NewsHtmlViewController.h */,
+				96493BC420BBABDC00867F46 /* NewsHtmlViewController.m */,
+				96493BC520BBABDC00867F46 /* NewsHtmlViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96FB405820B7A5DD00A09C2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96FB405920B7A5DD00A09C2A /* HistoryListModel.h */,
+				96FB405B20B7A5DD00A09C2A /* HistoryListModel.m */,
+				96FB405A20B7A5DD00A09C2A /* GetTicketListModel.h */,
+				96FB405C20B7A5DD00A09C2A /* GetTicketListModel.m */,
+				96FB407420B7A6A800A09C2A /* TicketHistoryDetaileModel.h */,
+				96FB407520B7A6A800A09C2A /* TicketHistoryDetaileModel.m */,
+				96493BCD20BBAD4F00867F46 /* GetNewsListModel.h */,
+				96493BCE20BBAD4F00867F46 /* GetNewsListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9694083520A536A80034AD3F /* Build configuration list for PBXNativeTarget "TicketObject" */;
 			buildPhases = (
+				20A2786B93B4078312BA321E /* [CP] Check Pods Manifest.lock */,
 				9694080520A536A60034AD3F /* Sources */,
 				9694080620A536A60034AD3F /* Frameworks */,
 				9694080720A536A60034AD3F /* Resources */,
+				4B54DA10AA45000C56651689 /* [CP] Embed Pods Frameworks */,
+				3B8F86F5A8FA42E0FF9603DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +543,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				9694081920A536A80034AD3F /* LaunchScreen.storyboard in Resources */,
+				96FB407320B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.xib in Resources */,
+				96FB40A320B7EC0200A09C2A /* BuyDetailsCollectionReusableView.xib in Resources */,
+				96FB406720B7A5DD00A09C2A /* BaseViewController.xib in Resources */,
+				96FB406920B7A5DD00A09C2A /* TicketHistoryDetailsViewController.xib in Resources */,
+				96FB405E20B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.xib in Resources */,
+				96FB408A20B7DF3700A09C2A /* UserInfoViewController.xib in Resources */,
+				96FB409920B7E99D00A09C2A /* BuyDetailsViewController.xib in Resources */,
+				96FB40A820B7F20B00A09C2A /* BuyEnterButtonView.xib in Resources */,
+				96493BCC20BBABF600867F46 /* NewsTableViewCell.xib in Resources */,
 				9694081620A536A80034AD3F /* Assets.xcassets in Resources */,
+				96FB409E20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.xib in Resources */,
+				96FB405D20B7A5DD00A09C2A /* ShowTicketCollectionViewCell.xib in Resources */,
+				96493BC720BBABDC00867F46 /* NewsHtmlViewController.xib in Resources */,
+				96FB406820B7A5DD00A09C2A /* HistoryViewController.xib in Resources */,
+				96FB406B20B7A5DD00A09C2A /* SettingViewController.xib in Resources */,
+				96FB406120B7A5DD00A09C2A /* HistoryTableViewCell.xib in Resources */,
+				96FB408520B7BE8E00A09C2A /* SettingLoginAfterView.xib in Resources */,
+				96FB407B20B7AD6000A09C2A /* TicketHistoryDetailsHeaderView.xib in Resources */,
+				96FB406620B7A5DD00A09C2A /* HomeViewController.xib in Resources */,
+				96FB408020B7BCE200A09C2A /* SettingTableViewCell.xib in Resources */,
+				96FB408F20B7E6EB00A09C2A /* BuyViewController.xib in Resources */,
+				96FB409420B7E72E00A09C2A /* BuyTableViewCell.xib in Resources */,
+				96493BC220BB9DD300867F46 /* NewsViewController.xib in Resources */,
 				9694081420A536A60034AD3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +586,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20A2786B93B4078312BA321E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicketObject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8F86F5A8FA42E0FF9603DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketObject/Pods-TicketObject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B54DA10AA45000C56651689 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TicketObject/Pods-TicketObject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketObject/Pods-TicketObject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9694080520A536A60034AD3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FB409820B7E99D00A09C2A /* BuyDetailsViewController.m in Sources */,
+				96FB406220B7A5DD00A09C2A /* CollectionFirstSectionHeaderView.m in Sources */,
+				96FB407220B7A68700A09C2A /* TicketHistoryDetailsTableViewCell.m in Sources */,
+				96A03DE420AC09AE00323715 /* ADScrollViewComponent.m in Sources */,
 				9694081120A536A60034AD3F /* ViewController.m in Sources */,
+				9694DEDA20BCE6E30024EFA3 /* WCAlertView.m in Sources */,
+				96FB408320B7BE8000A09C2A /* SettingLoginAfterView.m in Sources */,
+				96FB408E20B7E6EB00A09C2A /* BuyViewController.m in Sources */,
+				96FB407620B7A6A800A09C2A /* TicketHistoryDetaileModel.m in Sources */,
+				96FB3FE220B6F12600A09C2A /* URL.m in Sources */,
+				96FB406E20B7A5DD00A09C2A /* GetTicketListModel.m in Sources */,
+				96FB406A20B7A5DD00A09C2A /* TicketHistoryDetailsViewController.m in Sources */,
+				96FB403820B7983D00A09C2A /* MBProgressHUD+GS.m in Sources */,
+				96FB40A620B7F20200A09C2A /* BuyEnterButtonView.m in Sources */,
 				9694081C20A536A80034AD3F /* main.m in Sources */,
+				96493BCB20BBABF600867F46 /* NewsTableViewCell.m in Sources */,
+				96FB407920B7AD5900A09C2A /* TicketHistoryDetailsHeaderView.m in Sources */,
+				96FB406320B7A5DD00A09C2A /* HomeViewController.m in Sources */,
+				96FB409320B7E72E00A09C2A /* BuyTableViewCell.m in Sources */,
+				96493BCF20BBAD4F00867F46 /* GetNewsListModel.m in Sources */,
 				9694080E20A536A60034AD3F /* AppDelegate.m in Sources */,
+				96FB406020B7A5DD00A09C2A /* ShowTicketCollectionViewCell.m in Sources */,
+				96FB406520B7A5DD00A09C2A /* BaseViewController.m in Sources */,
+				96FB405F20B7A5DD00A09C2A /* HistoryTableViewCell.m in Sources */,
+				96FB408920B7DF3700A09C2A /* UserInfoViewController.m in Sources */,
+				96FB40A220B7EC0200A09C2A /* BuyDetailsCollectionReusableView.m in Sources */,
+				96FB406D20B7A5DD00A09C2A /* HistoryListModel.m in Sources */,
+				96493BC620BBABDC00867F46 /* NewsHtmlViewController.m in Sources */,
+				96FB409D20B7E9D300A09C2A /* BuyDetailsCollectionViewCell.m in Sources */,
+				96FB3FE820B6F2AE00A09C2A /* HttpNewWroking.m in Sources */,
+				96FB406420B7A5DD00A09C2A /* HistoryViewController.m in Sources */,
+				96493BC120BB9DD300867F46 /* NewsViewController.m in Sources */,
+				96FB406C20B7A5DD00A09C2A /* SettingViewController.m in Sources */,
+				96FB407F20B7BCE200A09C2A /* SettingTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,34 +853,42 @@
 		};
 		9694083620A536A80034AD3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07810928973BE6AFA54CF960 /* Pods-TicketObject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TicketObject/PrefixHeader.pch";
 				INFOPLIST_FILE = TicketObject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.TicketObject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmb.TicketObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		9694083720A536A80034AD3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFAFA37024A651A712CCA8F /* Pods-TicketObject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BQ4Q66M66;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TicketObject/PrefixHeader.pch";
 				INFOPLIST_FILE = TicketObject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.TicketObject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmb.TicketObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
